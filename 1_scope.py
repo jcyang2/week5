@@ -9,12 +9,13 @@ def display():
   x = 5
 
 def modify(z):
-  z = z + 4
+  print(x)
+  z.append(5)
 
 print(x)
 
 display()
-print(x)
-
+# print(x)
+x = 5
 modify(x)
 print(x)
